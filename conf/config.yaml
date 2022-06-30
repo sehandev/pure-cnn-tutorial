@@ -1,0 +1,15 @@
+device: gpu
+seed: 42
+max_epoch: 2
+train_bs: 512
+valid_bs: 256
+test_bs: 256
+lr: 1e-2
+accumulation_step: 1
+log_step: 10
+is_print_config: true
+weight_filename: sample
+wandb_api_key: [WANDB_API_KEY]
+wandb_project: project
+wandb_name: display-name
+now: ${now:%y%m%d%H%M%S}
